@@ -4,11 +4,19 @@
 # Declare it as a function and call it whenever or whereever you want.
 
 # We are declaring a funciton fa
+
+sam() {
+    echo "I am a Command from SAM"
+}
+
+
 fa () 
 { 
     echo "I am the first line in the function f";
     echo "Todays date is $(date +%F)";
     echo "Number of opened sessiosn are $(who |wc -l)"
+    echo "calling SAM Function"
+    sam 
     echo "Function f completed ..... BYE "
 }
 
