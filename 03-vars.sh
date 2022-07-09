@@ -11,4 +11,4 @@ b=abc
 # When to use Double Quotes ??? When your input us having any special characters, then you need to enclose them in QUOTES.
 
 echo $a  # $a is printing the value of a 
-echo $b 
+echo $b
