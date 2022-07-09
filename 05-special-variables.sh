@@ -19,4 +19,5 @@ echo "Name of the Trainer is $2 and this is $3 batch"
 #              $1  $2  $3
 
 
-echo $*  # This will print all the cli variables that we are using in the script.
+echo "CLI Variables used are $*"  # This will print all the cli variables that we are using in the script.
+echo "Number of vairables are $# "
