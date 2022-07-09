@@ -3,8 +3,8 @@
 #Functions helps you in avoiding the same set of code multiple times.
 # Declare it as a function and call it whenever or whereever you want.
 
-# We are declaring a funciton f 
-f () 
+# We are declaring a funciton fa
+fa () 
 { 
     echo "I am the first line in the function f";
     echo "Todays date is $(date +%F)";
@@ -14,10 +14,10 @@ f ()
 
 
 echo "Showing you how to call a function"
-f 
+fa
 sleep 5 
 
-f 
+fa 
 
 sleed 5 
-f 
+fa
