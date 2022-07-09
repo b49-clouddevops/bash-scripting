@@ -4,7 +4,7 @@
 
 a=10 
 # 10 s a string here 
-b=abc 
+b=abc
 
 # abc is also a string 
 
@@ -12,4 +12,4 @@ b=abc
 
 echo $a  # $a is printing the value of a 
 echo $b
-echo $c 
+echo "The value of c is $c"
