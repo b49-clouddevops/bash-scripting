@@ -4,6 +4,7 @@
 # Declare it as a function and call it whenever or whereever you want.
 
 # We are declaring a funciton fa
+LOADAVG=$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')
 
 sam() {
     echo "I am a Command from SAM"
@@ -26,7 +27,7 @@ fa
 
 # Creating another function stat 
 stat() {
-    echo "Load Average from last 1 min is $(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
+    echo "Load Average from last 1 min is $LOADAVG"
     echo "Number of opened sessions are $(who |wc -l )"
     echo "Todays date is $(date +%F)"
 }
