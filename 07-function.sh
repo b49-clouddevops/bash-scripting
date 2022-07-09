@@ -29,3 +29,9 @@ fa
 
 sleep 5 
 fa
+
+
+# Creating another function stat 
+stat() {
+    echo "Load Averate"
+}
