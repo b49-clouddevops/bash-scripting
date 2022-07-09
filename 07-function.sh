@@ -4,7 +4,7 @@
 # Declare it as a function and call it whenever or whereever you want.
 
 # We are declaring a funciton fa
-LOADAVG=$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')
+LOADAVG="$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
 
 sam() {
     echo "I am a Command from SAM"
