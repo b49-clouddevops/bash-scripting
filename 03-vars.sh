@@ -16,6 +16,8 @@ echo $b
 echo ${b}
 echo "The value of c is $c"
 
+echo Value of d id $d    ### Accessing a varianble from shell
+
 # rm -rf /data/${DATA_DIR} ---> /data/
 
 # $a or  ${a}
