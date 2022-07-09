@@ -23,15 +23,13 @@ fa ()
 
 echo "Showing you how to call a function"
 fa
-sleep 5 
-
-fa 
-
-sleep 5 
-fa
-
 
 # Creating another function stat 
 stat() {
-    echo "Load Averate"
+    echo "Load Average from last 1 min is $(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
+    echo "Number of opened sessions are $(who |wc -l )"
+    echo "Todays date is $(date +%F)"
 }
+
+echo "Calling stat function
+stat 
