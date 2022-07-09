@@ -7,3 +7,7 @@ echo "Hello World"
 
 echo "Hai"
 echo "Hello"
+
+## \n : New LIne ;  ## \t : Tab Space 
+
+echo Hai\nHello
