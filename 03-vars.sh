@@ -12,3 +12,4 @@ b=abc
 
 echo $a  # $a is printing the value of a 
 echo $b
+echo $c 
