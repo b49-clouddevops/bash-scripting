@@ -4,7 +4,7 @@
 
 a=10 
 # 10 s a string here 
-b= abc 
+b=abc 
 
 # abc is also a string 
 
