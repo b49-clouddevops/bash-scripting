@@ -7,6 +7,7 @@
 # $0 to $n , $* , $@ , $# , $$
 a=100
 b=300
+echo "Declared values are $a $b"
 echo "Script we are executing is $0"
 
 # Through command line you can pass up to 9 variables 
