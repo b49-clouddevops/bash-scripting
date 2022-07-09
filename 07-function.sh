@@ -19,5 +19,5 @@ sleep 5
 
 fa 
 
-sleed 5 
+sleep 5 
 fa
