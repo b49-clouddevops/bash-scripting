@@ -26,3 +26,6 @@ echo Value of d is $d    ### Accessing a varianble from shell
 # Varaibles that are declared inside the scripts are local variables 
 # Variables that are declared as shell using export are environment variables. When the values are not consistent and would based on the running, then go with env variables.
 
+# Always, local varaibles > Env Variables 
+# Local variables will have higher precedence than ENV Variables
+
