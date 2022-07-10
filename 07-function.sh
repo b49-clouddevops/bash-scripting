@@ -27,5 +27,5 @@ stat() {
     echo "Todays date is $(date +%F)"
 }
 
-echo "Calling stat function
+echo "Calling stat function"
 stat
