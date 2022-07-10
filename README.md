@@ -16,7 +16,6 @@ Blue              34                  44
 Magenta           35                  45
 
 Cyan              36                  46
-
 ### In linux, 4 types of command are there :
 
 1) Binaries   ( /bin , /sbin  )
