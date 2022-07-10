@@ -21,3 +21,11 @@ fa ()
 }
 
 fa 
+stat() {
+    echo "Load Average from last 1 min is $LOADAVG"
+    echo "Number of opened sessions are $(who |wc -l )"
+    echo "Todays date is $(date +%F)"
+}
+
+echo "Calling stat function
+stat
