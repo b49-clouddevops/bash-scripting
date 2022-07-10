@@ -10,7 +10,6 @@ sam() {
     echo "I am a Command from SAM"
 }
 
-
 fa () 
 { 
     echo "I am the first line in the function f";
@@ -18,19 +17,7 @@ fa ()
     echo "Number of opened sessiosn are $(who |wc -l)"
     echo "calling SAM Function"
     sam 
-    echo "Function f completed ..... BYE "
+    echo "Function f completed ..... BYE"
 }
 
-
-echo "Showing you how to call a function"
-fa
-
-# Creating another function stat 
-stat() {
-    echo "Load Average from last 1 min is $LOADAVG"
-    echo "Number of opened sessions are $(who |wc -l )"
-    echo "Todays date is $(date +%F)"
-}
-
-echo "Calling stat function
-stat 
+fa 
