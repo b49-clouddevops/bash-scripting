@@ -30,3 +30,5 @@ stat() {
 echo "Calling stat function"
 stat
 
+echo "Calling stat function"
+common_fun
