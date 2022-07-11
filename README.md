@@ -77,6 +77,9 @@ In Linux, exit codes range from 0 to 255.
 1) IF
 2) CASE 
 
+
+
+
 ### Expressions are categorized in to three
 ```
     1. Numbers
