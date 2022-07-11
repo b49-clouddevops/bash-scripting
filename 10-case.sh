@@ -15,7 +15,6 @@ case $ACTION in
         ;;
     *)
         echo "Valid options are start or stop only
-
 esac
 
 
