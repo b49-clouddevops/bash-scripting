@@ -90,6 +90,9 @@ In IF we have 2 types:
 
 Syntax: 
 
+if
+
+fi 
 
 
 ### Expressions are categorized in to three
