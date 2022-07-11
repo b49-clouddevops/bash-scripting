@@ -28,4 +28,5 @@ elif [ "$ACTION" = "restart" ] ; then
 
 else 
     echo -e " \e[33m Valid options are start or stop or restart only \e[0m"
+    exit 
 fi 
