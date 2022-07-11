@@ -89,11 +89,11 @@ In IF we have 2 types:
 ### Simple If
 
 Syntax: 
-
+```
 if [ expression ]; then
     commands will be executed
 fi 
-
+```
 
 ### Simple If
 
