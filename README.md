@@ -107,7 +107,7 @@ else
 fi 
 ```
 
-### If Else
+### Else If 
 
 Syntax: 
 
