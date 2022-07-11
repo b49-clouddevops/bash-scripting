@@ -11,7 +11,7 @@ case $ACTION in
         echo "XYZ Service Starting"
         ;;
     stop)  
-        echo "XYZ Service Starting"
+        echo "XYZ Service Stopping"
         ;;
 
 esac
