@@ -10,6 +10,9 @@ case $ACTION in
     start)  
         echo "XYZ Service Starting"
         ;;
+    stop)  
+        echo "XYZ Service Starting"
+        ;;
 
 esac
 
