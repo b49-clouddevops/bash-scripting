@@ -95,14 +95,14 @@ if [ expression ]; then
 fi 
 ```
 
-### Simple If
+### If
 
 Syntax: 
-
+```
 if [ expression ]; then
     commands will be executed
 fi 
-
+```
 
 ### Expressions are categorized in to three
 ```
