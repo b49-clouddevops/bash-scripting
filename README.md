@@ -88,7 +88,7 @@ In Linux, exit codes range from 0 to 255.
     [ 1 -ne 1 ]
 ```
 
-Operators on Strings:
+## Operators on Strings:
     = , == , !=
 
     [ abc = abc ]
