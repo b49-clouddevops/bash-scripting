@@ -83,7 +83,7 @@ In IF we have 2 types:
 ```
 1) Simple If
 2) If Else 
-
+3) Else IF
 ```
 
 ### Expressions are categorized in to three
