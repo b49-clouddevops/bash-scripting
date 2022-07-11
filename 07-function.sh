@@ -5,6 +5,7 @@
 
 # We are declaring a funciton fa
 
+source 
 
 LOADAVG="$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
 
