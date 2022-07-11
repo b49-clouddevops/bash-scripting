@@ -15,9 +15,11 @@ case $ACTION in
         ;;
     stop)  
         echo "XYZ Service Stopping"
+        exit 0
         ;;
     *)
         echo -e "\e[33m Valid options are start or stop only \e[0m"
+        
 esac
 
 
