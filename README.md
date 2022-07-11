@@ -80,6 +80,11 @@ In Linux, exit codes range from 0 to 255.
 
 In IF we have 2 types:
 
+```
+1) Simple If
+3) 
+```
+
 ### Expressions are categorized in to three
 ```
     1. Numbers
