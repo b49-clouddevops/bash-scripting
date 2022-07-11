@@ -30,5 +30,5 @@ stat() {
 echo "Calling stat function"
 stat
 
-echo "Calling common_fun function"
+echo "Calling common_fun function from external file"
 common_fun
