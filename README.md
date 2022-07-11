@@ -107,6 +107,20 @@ else
 fi 
 ```
 
+### If Else
+
+Syntax: 
+
+```
+if [ expression ]; then
+    commands will be executed
+else
+    these commands will be executed
+fi 
+```
+
+
+
 ### Expressions are categorized in to three
 ```
     1. Numbers
