@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-#Functions helps you in avoiding the same set of code multiple times.
+# Functions helps you in avoiding the same set of code multiple times.
 # Declare it as a function and call it whenever or whereever you want.
 
 # We are declaring a funciton fa
