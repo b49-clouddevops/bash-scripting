@@ -21,7 +21,7 @@ fa ()
     echo "Number of opened sessiosn are $(who |wc -l)"
     echo "calling SAM Function"
     sam 
-    exit 1
+    return
     echo "Function f completed ..... BYE"
 }
 
