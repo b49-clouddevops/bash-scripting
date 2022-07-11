@@ -80,7 +80,7 @@ In Linux, exit codes range from 0 to 255.
     3. Files
 ```
 
-Operators on numbers:
+## ## Operators on numbers:
 ```
     -eq , -ne , -gt, -ge, -lt, -le
 
