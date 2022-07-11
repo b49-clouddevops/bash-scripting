@@ -16,10 +16,10 @@ ACTION=$1
 
 # Else If 
 if [ "$ACTION" = "start" ] ; then 
-    echo -e "Selected option is \e[32m start \e[0m" > vali.log 
+    echo -e "Selected option is \e[32m start \e[0m" > valid .log 
 
 elif [ "$ACTION" = "stop" ] ; then 
-    echo -e "Selected option is \e[32m stop \e[0m"
+    echo -e "Selected option is \e[32m stop \e[0m"  
 
 elif [ "$ACTION" = "restart" ] ; then 
     echo -e "Selected option is \e[32m restart \e[0m"    
