@@ -5,7 +5,7 @@ ACTION=$1
 a=10 
 b=20 
 
-$a -gt 
+$a -gt $b 
 
 
 # Simple If
