@@ -91,7 +91,7 @@ In IF we have 2 types:
 Syntax: 
 ```
 if [ expression ]; then
-    commands will be executed
+    command will be executed
 fi 
 ```
 
@@ -101,7 +101,7 @@ Syntax:
 
 ```
 if [ expression ]; then
-    commands will be executed
+    command will be executed
 else
     these commands will be executed
 fi 
