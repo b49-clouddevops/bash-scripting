@@ -6,9 +6,9 @@
 
 # esac 
 
-ACTION=$1
+#ACTION=$1
 
-case $ACTION in 
+case $ in 
     start)  
         echo "XYZ Service Starting"
         exit 0
