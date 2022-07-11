@@ -101,7 +101,7 @@ In Linux, exit codes range from 0 to 255.
     -z and -n are inverse proportional options
 
 
-Operators on files:
+## Operators on files:
     Lot of operators are available and you can check them using man pages of bash 
 
     [ -f file ] -> True of file exists and file is a regular file 
