@@ -2,4 +2,7 @@
 
 # Exit code 0 to 255
 
+echo hai 
 exit 0 
+
+echo batch49
