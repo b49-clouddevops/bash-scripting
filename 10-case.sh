@@ -8,7 +8,7 @@
 
 case $ACTION in 
     start)  
-        echo "SYX Service Starting"
+        echo "XYZ Service Starting"
         ;;
 
 esac
