@@ -6,6 +6,8 @@
 
 # esac 
 
+ACTION=$1
+
 case $ACTION in 
     start)  
         echo "XYZ Service Starting"
