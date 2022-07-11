@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 case $var in 
-    p
+    opt1)  co
 
 esac 
 
