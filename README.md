@@ -112,8 +112,10 @@ fi
 Syntax: 
 
 ```
-if [ expression ]; then
+if [ expression1 ]; then
     command will be executed
+
+    
 else
     these commands will be executed
 fi 
