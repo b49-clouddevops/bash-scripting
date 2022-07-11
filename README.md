@@ -119,7 +119,7 @@ elif [ expression2 ]; then
     command-x will be executed
 
 elif [ expression3 ]; then 
-    command-x will be executed
+    command-y will be executed
 
 else
     these commands will be executed
