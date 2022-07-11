@@ -5,7 +5,7 @@ Here I am going to enclose all the topics that we are going to cover as a part o
 ### Welcome to Shell Scripting
 
 
-Follwoing are the shell scripting topics which we discuss as a part of our project
+Following are the shell scripting topics which we discuss as a part of our project
 ```
 1. SheBang and Comments
 2. Printing
