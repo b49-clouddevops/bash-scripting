@@ -5,7 +5,8 @@
 
 # We are declaring a funciton fa
 
-source 
+# This will call / pull all the functions or 
+source common.sh 
 
 LOADAVG="$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
 
