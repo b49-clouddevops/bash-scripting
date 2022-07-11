@@ -90,7 +90,7 @@ In IF we have 2 types:
 
 Syntax: 
 
-if [ exression ]; then
+if [ expression ]; then
     commands will be executed
 fi 
 
