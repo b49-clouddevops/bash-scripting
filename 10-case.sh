@@ -19,7 +19,7 @@ case $ACTION in
         ;;
     *)
         echo -e "\e[33m Valid options are start or stop only \e[0m"
-        
+        exit 1 
 esac
 
 
