@@ -8,7 +8,7 @@
 
 #ACTION=$1
 
-case $ in 
+case $ACTION in 
     start)  
         echo "XYZ Service Starting"
         exit 0
