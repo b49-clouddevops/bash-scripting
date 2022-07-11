@@ -11,7 +11,7 @@ ACTION=$1
 
 # If Else 
 if [ "$ACTION" = "start" ] ; then 
-    echo -e "Selection option is \e[32m start \e[0m"
+    echo -e "Selected option is \e[32m start \e[0m"
 else 
     echo -e " \e[33m Valid option is start \e[0m"
 fi 
