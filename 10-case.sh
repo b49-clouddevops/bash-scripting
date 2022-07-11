@@ -1,11 +1,11 @@
 #!/bin/bash 
 
-case $var in 
-    opt1)  commands ;; 
-    opt2)  commands ;; 
+# case $var in 
+#     opt1)  commands ;; 
+#     opt2)  commands ;; 
 
-esac 
+# esac 
 
-
+case 
 
 
