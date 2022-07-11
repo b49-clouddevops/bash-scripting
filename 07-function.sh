@@ -6,6 +6,7 @@
 # We are declaring a funciton fa
 
 # This will call / pull all the functions/ vars from the external file. So that you can call and use them.
+pwd ; ls -ltr 
 source common.sh 
 
 LOADAVG="$(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
