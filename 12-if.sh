@@ -2,6 +2,11 @@
 
 ACTION=$1 
 
+a=10 
+b=20 
+
+$a -gt 
+
 
 # Simple If
 # if [ "$ACTION" = "start" ] ; then 
