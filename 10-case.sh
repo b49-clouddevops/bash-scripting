@@ -6,6 +6,6 @@
 
 # esac 
 
-case 
+case $ACTION 
 
 
