@@ -13,6 +13,8 @@ case $ACTION in
     stop)  
         echo "XYZ Service Stopping"
         ;;
+    *)
+        ech
 
 esac
 
