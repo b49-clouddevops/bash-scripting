@@ -3,4 +3,8 @@
 
 a=10 
 
-echo $
+echo $a 
+
+echo ${a}
+
+echo "${a}"
