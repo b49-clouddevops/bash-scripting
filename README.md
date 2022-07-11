@@ -95,7 +95,7 @@ if [ expression ]; then
 fi 
 ```
 
-### If
+### If Else
 
 Syntax: 
 ```
