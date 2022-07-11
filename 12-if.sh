@@ -4,6 +4,6 @@ ACTION=$1
 
 
 if [ "$ACTION" = "start" ] ; then 
-    echo ""
+    echo -e "Selection option is start"
 
 fi 
