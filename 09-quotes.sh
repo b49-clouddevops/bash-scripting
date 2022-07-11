@@ -1,1 +1,6 @@
-#!/bib/bash 
+#!/bin/bash 
+
+
+a=10 
+
+echo $
