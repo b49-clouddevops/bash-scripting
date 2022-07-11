@@ -29,3 +29,4 @@ stat() {
 
 echo "Calling stat function"
 stat
+
