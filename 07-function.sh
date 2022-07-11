@@ -34,5 +34,5 @@ stat() {
 echo "Calling stat function"
 stat
 
-echo "Calling common_fun function from external file"
+echo -e "Calling common_fun function from external file"
 common_fun
