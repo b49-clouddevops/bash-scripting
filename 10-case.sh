@@ -1,7 +1,8 @@
 #!/bin/bash 
 
 case $var in 
-    opt1)  co
+    opt1)  commands ;; 
+    opt2)  commands ;; 
 
 esac 
 
