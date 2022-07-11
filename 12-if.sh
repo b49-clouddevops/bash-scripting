@@ -7,7 +7,6 @@ ACTION=$1
 #     echo -e "Selection option is \e[32m start \e[0m"
 # fi 
 
-
 # If Else 
 # if [ "$ACTION" = "start" ] ; then 
 #     echo -e "Selected option is \e[32m start \e[0m"
