@@ -74,6 +74,8 @@ In Linux, exit codes range from 0 to 255.
 ```
 
 ### There are 2 types of CONDITIONS in SHELL : 
+1) IF
+2) CASE 
 
 ### Expressions are categorized in to three
 ```
