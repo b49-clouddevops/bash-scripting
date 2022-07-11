@@ -117,6 +117,8 @@ if [ expression1 ]; then
 
 elif [ expression2 ]; then 
     command-x will be executed
+
+    
 else
     these commands will be executed
 fi 
