@@ -82,7 +82,8 @@ In IF we have 2 types:
 
 ```
 1) Simple If
-3) 
+2) If Else 
+
 ```
 
 ### Expressions are categorized in to three
