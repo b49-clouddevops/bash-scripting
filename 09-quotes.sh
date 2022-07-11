@@ -11,4 +11,5 @@ echo "${a}"
 
 echo '${a}'
 echo "$?"
-echo '' 
+echo '$?'
+ 
