@@ -91,7 +91,7 @@ In IF we have 2 types:
 Syntax: 
 
 if [ exression ]; then
-
+    commands will be executed
 fi 
 
 
