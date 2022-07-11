@@ -6,12 +6,5 @@ case
 esac 
 
 
-if 
 
 
-fi 
-
-
-fun () {
-    
-}
