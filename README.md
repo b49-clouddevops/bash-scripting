@@ -90,7 +90,7 @@ In IF we have 2 types:
 
 Syntax: 
 
-if
+if [ exression ]; then
 
 fi 
 
