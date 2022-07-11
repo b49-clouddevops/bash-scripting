@@ -86,6 +86,9 @@ In IF we have 2 types:
 3) Else IF
 ```
 
+### Simple If
+
+Syntax: 
 
 
 
