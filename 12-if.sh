@@ -5,9 +5,6 @@ ACTION=$1
 a=10 
 b=20 
 
-$a -gt $b 
-
-
 # Simple If
 # if [ "$ACTION" = "start" ] ; then 
 #     echo -e "Selection option is \e[32m start \e[0m"
