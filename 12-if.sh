@@ -3,7 +3,7 @@
 ACTION=$1 
 
 
-if [  ]
+if [ $ACTION ]
 
 
 fi 
