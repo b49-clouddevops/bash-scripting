@@ -16,13 +16,13 @@ ACTION=$1
 
 # Else If 
 if [ "$ACTION" = "start" ] ; then 
-    echo -e "Selected option is \e[32m start \e[0m" > /tmp/valid.log 
+    echo -e "Selected option is \e[32m start \e[0m"  
 
 elif [ "$ACTION" = "stop" ] ; then 
     echo -e "Selected option is \e[32m stop \e[0m"   > /tmp/valid.log 
 
 elif [ "$ACTION" = "restart" ] ; then 
-    echo -e "Selected option is \e[32m restart \e[0m"    
+    echo -e "Selected option is \e[32m restart \e[0m"  > /tmp/valid.log  
 
 else 
     echo -e " \e[33m Valid options are start or stop or restart only \e[0m"
