@@ -115,7 +115,7 @@ Syntax:
 if [ expression1 ]; then
     command will be executed
 
-    
+elfi [ ]    
 else
     these commands will be executed
 fi 
