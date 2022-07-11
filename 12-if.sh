@@ -16,7 +16,7 @@ ACTION=$1
 
 # Else If 
 if [ "$ACTION" = "start" ] ; then 
-    echo -e "Selected option is \e[32m start \e[0m" > /tmp/valid .log 
+    echo -e "Selected option is \e[32m start \e[0m" > /tmp/valid.log 
 
 elif [ "$ACTION" = "stop" ] ; then 
     echo -e "Selected option is \e[32m stop \e[0m"  
