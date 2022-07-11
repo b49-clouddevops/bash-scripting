@@ -116,7 +116,7 @@ if [ expression1 ]; then
     command will be executed
 
 elif [ expression2 ]; then 
-    
+    command-x will be executed
 else
     these commands will be executed
 fi 
