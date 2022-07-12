@@ -33,7 +33,7 @@ cd /usr/share/nginx/html
 rm -rf *
 stat $? 
 
-echo -n "Extracting the $COMPONENT"
+echo -n "Extracting the $COMPONENT: "
 unzip /tmp/frontend.zip
 stat $? 
 
@@ -42,3 +42,4 @@ mv frontend-main/* .
 mv static/* .
 rm -rf frontend-main README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
+stat $? 
