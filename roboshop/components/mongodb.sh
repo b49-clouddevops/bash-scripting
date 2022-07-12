@@ -12,6 +12,8 @@ stat $?
 
 echo -n "Installing MongoDB: "
 yum install -y mongodb-org &>> $LOGFILE
+stat $? 
+
 systemctl enable mongod  &>> $LOGFILE
 systemctl start mongod &>> $LOGFILE
 
