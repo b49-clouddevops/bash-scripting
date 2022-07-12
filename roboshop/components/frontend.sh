@@ -44,4 +44,4 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $? 
 
 
-echo 
+echo -e " "
