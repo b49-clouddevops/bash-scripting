@@ -33,7 +33,9 @@ echo -n "Extracting the schema: "
 unzip mongodb.zip  &>> $LOGFILE 
 stat $? 
 
-cd cd mongodb-main
+cd mongodb-main
+echo -n "Injecting the schema: "
+
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
