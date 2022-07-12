@@ -23,7 +23,7 @@ else
     echo -e " \e[31m FAILURE \e[0m"
 fi 
 
-echo -n "Downloading and extracting $COMPONENT"
+echo -n "Downloading and extracting $COMPONEN: "
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
 cd /usr/share/nginx/html
 rm -rf *
