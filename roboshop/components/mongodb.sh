@@ -14,3 +14,6 @@ curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/stans
 
 Config file:   `# vim /etc/mongod.conf`
 
+ systemctl restart mongod
+
+ 
