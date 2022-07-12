@@ -24,7 +24,7 @@ systemctl enable mongod  &>> $LOGFILE
 systemctl restart mongod &>> $LOGFILE 
 stat $?
 
-
+echo -n "Downloading the $COMPONENT schema""
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
