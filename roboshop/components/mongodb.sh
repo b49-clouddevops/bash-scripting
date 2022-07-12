@@ -6,6 +6,7 @@ MONGODB_REPO_URL="https://raw.githubusercontent.com/stans-robot-project/mongodb/
 
 source components/common.sh 
 
+echo -
 curl -s -o /etc/yum.repos.d/mongodb.repo $MONGODB_REPO_URL
 yum install -y mongodb-org &>> $LOGFILE
 systemctl enable mongod  &>> $LOGFILE
