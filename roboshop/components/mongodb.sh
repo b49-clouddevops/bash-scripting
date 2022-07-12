@@ -23,6 +23,8 @@ echo -n "Updating $COMPONENT Listenting address: "
 sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mongod.conf
 stat $? 
 
+echo -n ""
+
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
 # 1. Update Listen IP address from 127.0.0.1 to 0.0.0.0 in the config file, so that MongoDB can be accessed by other services.
