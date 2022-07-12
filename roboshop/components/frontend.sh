@@ -14,6 +14,8 @@ else
 fi 
 
 systemctl enable nginx &>> $LOGFILE 
+
+echo -n ""
 systemctl start nginx
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
 cd /usr/share/nginx/html
