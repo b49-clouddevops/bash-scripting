@@ -40,9 +40,3 @@ mongo < users.js &>> $LOGFILE
 stat $?
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
-
-# # cd /tmp
-# # unzip mongodb.zip
-# # cd mongodb-main
-# # mongo < catalogue.js
-# # mongo < users.js
