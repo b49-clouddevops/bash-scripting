@@ -1,2 +1,2 @@
 frontend:
-	sh 
+	sh components/fronte
