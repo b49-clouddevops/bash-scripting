@@ -30,6 +30,7 @@ stat $?
 
 cd /tmp
 echo -n "Extracting the schema: "
+unzip mongodb.zip  &>> $LOGFILE 
 
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
