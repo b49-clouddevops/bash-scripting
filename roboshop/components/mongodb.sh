@@ -19,7 +19,7 @@ systemctl enable mongod  &>> $LOGFILE
 systemctl start mongod &>> $LOGFILE 
 stat $?
 
-echo -n
+echo -n "Updating $COMPONENT Listenting address: "
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
