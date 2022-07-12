@@ -15,6 +15,7 @@ stat() {
 
 echo -n "Installing Nginx: "
 yum install nginx -y &>> $LOGFILE
+stat $?
 
 
 systemctl enable nginx &>> $LOGFILE 
