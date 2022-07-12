@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 
-source ./commin.sh
+source ./common.sh
 
 yum install nginx -y
 systemctl enable nginx
