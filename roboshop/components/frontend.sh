@@ -5,7 +5,7 @@ LOGFILE="/tmp/$COMPONENT.log"
 
 source components/common.sh
 
-
+stat() {
 if [ $? -eq 0 ] ; then 
     echo -e " \e[32m SUCCESS \e[0m"
 else 
