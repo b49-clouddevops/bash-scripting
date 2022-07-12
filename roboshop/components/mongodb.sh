@@ -9,7 +9,7 @@ source components/common.sh
 curl -s -o /etc/yum.repos.d/mongodb.repo $MONGODB_REPO_URL
 yum install -y mongodb-org &>> $LOGFILE
 systemctl enable mongod  &>> $LOGFILE
-systemctl start mongod
+systemctl start mongod &>> $LOGFILE
 
 1. Update Listen IP address from 127.0.0.1 to 0.0.0.0 in the config file, so that MongoDB can be accessed by other services.
 
