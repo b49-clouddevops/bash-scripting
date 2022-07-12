@@ -3,6 +3,7 @@ set -e
 COMPONENT=mongodb  
 LOGFILE="/tmp/$COMPONENT.log"
 MONGODB_REPO_URL="https://raw.githubusercontent.com/stans-robot-project/mongodb/main/mongo.repo"
+COMPONENT_REPO="https://github.com/stans-robot-project/mongodb/archive/main.zip"
 
 source components/common.sh 
 
