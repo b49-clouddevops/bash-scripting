@@ -3,7 +3,7 @@ set -e
 
 USED_ID=$(id -u)
 if[ $USED_ID -ne 0  ] ; then  
-
+    echo -e ""
 fi 
 
 yum install nginx -y
