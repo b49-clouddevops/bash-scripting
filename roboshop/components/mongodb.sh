@@ -20,7 +20,7 @@ stat $?
 
 echo -n "starting $COMPONENT"
 systemctl enable mongod  &>> $LOGFILE
-systemctl start mongod &>> $LOGFILE 
+systemctl restart mongod &>> $LOGFILE 
 stat $?
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
