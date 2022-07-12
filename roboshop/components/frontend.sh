@@ -7,7 +7,7 @@ source components/common.sh
 
 echo "Installing Nginx: "
 yum install nginx -y &>> $LOGFILE
-if [ $? ]
+if [ $? -eq 0 ] ; then 
 
 fi 
 
