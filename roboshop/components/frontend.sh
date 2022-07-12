@@ -5,7 +5,7 @@ LOGFILE="/tmp/$COMPONENT.log"
 
 source components/common.sh
 
-echo "Installing Nginx: "
+echo -n "Installing Nginx: "
 yum install nginx -y &>> $LOGFILE
 if [ $? -eq 0 ] ; then 
     echo -e " \e[32m SUCCESS \e[0m"
