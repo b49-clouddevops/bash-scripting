@@ -33,7 +33,7 @@ cd /usr/share/nginx/html
 rm -rf *
 stat $? 
 
-echo -n "Extracting the downloded"
+echo -n "Extracting the $COMPONENT"
 unzip /tmp/frontend.zip
 stat $? 
 
