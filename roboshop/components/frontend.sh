@@ -2,7 +2,7 @@
 set -e 
 
 USED_ID=$(id -u)
-if[ $  ] ; then  
+if[ $USED_ID -ne 0  ] ; then  
 
 fi 
 
