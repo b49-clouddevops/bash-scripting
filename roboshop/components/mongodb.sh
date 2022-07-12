@@ -6,15 +6,15 @@ MONGODB_REPO_URL="https://raw.githubusercontent.com/stans-robot-project/mongodb/
 
 source components/common.sh 
 
-echo -n "Downloading the MongoDB Repo:  "
+echo -n "Downloading the $COMPONENT Repo:  "
 curl -s -o /etc/yum.repos.d/mongodb.repo $MONGODB_REPO_URL
 stat $? 
 
-echo -n "Installing MongoDB: "
+echo -n "Installing $COMPONENT: "
 yum install -y mongodb-org &>> $LOGFILE
 stat $? 
 
-echo -n "starting mo"
+echo -n "starting $COMPONENT"
 systemctl enable mongod  &>> $LOGFILE
 systemctl start mongod &>> $LOGFILE
 
