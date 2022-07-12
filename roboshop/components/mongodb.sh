@@ -17,17 +17,18 @@ stat $?
 echo -n "starting $COMPONENT"
 systemctl enable mongod  &>> $LOGFILE
 systemctl start mongod &>> $LOGFILE 
+stat $?
 
-1. Update Listen IP address from 127.0.0.1 to 0.0.0.0 in the config file, so that MongoDB can be accessed by other services.
+# 1. Update Listen IP address from 127.0.0.1 to 0.0.0.0 in the config file, so that MongoDB can be accessed by other services.
 
-Config file:   `# vim /etc/mongod.conf`
+# Config file:   `# vim /etc/mongod.conf`
 
- systemctl restart mongod
+#  systemctl restart mongod
 
- # curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/mongodb/archive/main.zip"
+#  # curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/mongodb/archive/main.zip"
 
-# cd /tmp
-# unzip mongodb.zip
-# cd mongodb-main
-# mongo < catalogue.js
-# mongo < users.js
+# # cd /tmp
+# # unzip mongodb.zip
+# # cd mongodb-main
+# # mongo < catalogue.js
+# # mongo < users.js
