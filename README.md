@@ -183,4 +183,4 @@ fi  -->
 
 What to do ?
 1) I want tht script to be run as a ROOT user, without which I want to give user a ERROR Message stating Run it as root or sudo user. 
-2) 
+2) I also need success or failure messages for all the steps
