@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 COMPONENT=frontend 
-LOGFILE
+LOGFILE="/tmp/$"
 
 source components/common.sh
 
