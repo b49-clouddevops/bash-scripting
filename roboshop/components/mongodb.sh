@@ -8,6 +8,8 @@ source components/common.sh
 
 echo -n "Downloading the MongoDB Repo:  "
 curl -s -o /etc/yum.repos.d/mongodb.repo $MONGODB_REPO_URL
+stat $? 
+
 yum install -y mongodb-org &>> $LOGFILE
 systemctl enable mongod  &>> $LOGFILE
 systemctl start mongod &>> $LOGFILE
