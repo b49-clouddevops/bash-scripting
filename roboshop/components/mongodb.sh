@@ -35,7 +35,7 @@ stat $?
 
 cd mongodb-main
 echo -n "Injecting the schema: "
-
+mongo < catalogue.js && 
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
