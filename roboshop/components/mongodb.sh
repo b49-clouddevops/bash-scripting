@@ -29,6 +29,8 @@ curl -s -L -o /tmp/mongodb.zip "$COMPONENT_REPO"
 stat $? 
 
 cd /tmp
+echo -n "Extracting the schema: "
+
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
