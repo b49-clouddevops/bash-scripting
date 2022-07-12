@@ -44,4 +44,4 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $? 
 
 
-echo -e " ____________________ $COMPONENT Configuration is completed ____________________ \e[0m"
+echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
