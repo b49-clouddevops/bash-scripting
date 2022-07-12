@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e 
 
-USED_ID=
+USED_ID=$(id -u)
+
 
 yum install nginx -y
 systemctl enable nginx
