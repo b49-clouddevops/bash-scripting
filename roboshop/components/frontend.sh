@@ -5,6 +5,7 @@ LOGFILE="/tmp/$COMPONENT.log"
 
 source components/common.sh
 
+echo 
 yum install nginx -y
 systemctl enable nginx
 systemctl start nginx
