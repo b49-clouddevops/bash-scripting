@@ -8,7 +8,7 @@ source components/common.sh
 echo "Installing Nginx: "
 yum install nginx -y &>> $LOGFILE
 if [ $? -eq 0 ] ; then 
-    echo -e " SUCC"
+    echo -e " \eSUCCESS"
 fi 
 
 systemctl enable nginx
