@@ -182,4 +182,4 @@ fi  -->
 ### Makefile is a industry standard wrapper for calling scripts:
 
 What to do ?
-1) I want tht script to be run as a ROOT user, without which I want to give user a ERROR Message stating S
+1) I want tht script to be run as a ROOT user, without which I want to give user a ERROR Message stating Run it as root or sudo user. 
