@@ -28,7 +28,7 @@ echo -n "Downloading $COMPONENT: "
 curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
 stat $? 
 
-echo -n ""
+echo -n "Clearing the old content: "
 cd /usr/share/nginx/html
 rm -rf *
 unzip /tmp/frontend.zip
