@@ -16,7 +16,7 @@ stat $?
 
 echo -n "starting $COMPONENT"
 systemctl enable mongod  &>> $LOGFILE
-systemctl start mongod &>> $LOGFILE
+systemctl start mongod &>> $LOGFILE 
 
 1. Update Listen IP address from 127.0.0.1 to 0.0.0.0 in the config file, so that MongoDB can be accessed by other services.
 
