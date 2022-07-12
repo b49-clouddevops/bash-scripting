@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e 
-COMPONENT=frontend 
+COMPONENT=mongodb  
 LOGFILE="/tmp/$COMPONENT.log"
 
-source components/common.sh
+source components/common.sh 
