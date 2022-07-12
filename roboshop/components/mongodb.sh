@@ -24,6 +24,8 @@ systemctl enable mongod  &>> $LOGFILE
 systemctl restart mongod &>> $LOGFILE 
 stat $?
 
+
+
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
 #  # curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/mongodb/archive/main.zip"
