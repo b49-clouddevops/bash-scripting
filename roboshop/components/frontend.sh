@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e 
+COMPONENT=frontend 
 
 source components/common.sh
 
