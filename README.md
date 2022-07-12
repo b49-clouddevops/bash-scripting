@@ -181,4 +181,5 @@ fi  -->
 
 ### Makefile is a industry standard wrapper for calling scripts:
 
-1)
+What to do ?
+1) I want tht script to be run as a ROOT user, without which I want to 
