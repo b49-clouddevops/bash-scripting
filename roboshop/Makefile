@@ -4,8 +4,8 @@ frontend:
 mongodb:
 	sh components/mongodb.sh
 
-frontend:
-	sh components/frontend.sh
+catalogue:
+	sh components/catalogue.sh
 
-frontend:
-	sh components/frontend.sh
+cart:
+	sh components/cart.sh
