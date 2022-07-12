@@ -5,7 +5,7 @@ LOGFILE="/tmp/$COMPONENT.log"
 
 source components/common.sh 
 
-curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/stans-robot-project/mongodb/main/mongo.repo
+curl -s -o /etc/yum.repos.d/mongodb.repo 
 # yum install -y mongodb-org
 # systemctl enable mongod
 # systemctl start mongod
