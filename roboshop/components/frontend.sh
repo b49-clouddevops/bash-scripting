@@ -37,6 +37,7 @@ echo -n "Extracting the $COMPONENT"
 unzip /tmp/frontend.zip
 stat $? 
 
+echo -n "Updating the PROXY file: "
 mv frontend-main/* .
 mv static/* .
 rm -rf frontend-main README.md
