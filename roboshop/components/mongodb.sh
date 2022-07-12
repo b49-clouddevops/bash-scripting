@@ -28,6 +28,7 @@ echo -n "Downloading the $COMPONENT code: "
 curl -s -L -o /tmp/mongodb.zip "$COMPONENT_REPO"
 stat $? 
 
+cd /tmp
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
