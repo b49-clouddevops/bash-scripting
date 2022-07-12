@@ -177,3 +177,6 @@ else
     echo Thanks
 
 fi  -->
+
+
+### Makefile is a industry standard wrapper for calling scripts:
