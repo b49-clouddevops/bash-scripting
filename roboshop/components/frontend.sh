@@ -31,6 +31,8 @@ stat $?
 echo -n "Clearing the old content: "
 cd /usr/share/nginx/html
 rm -rf *
+stat $? 
+
 unzip /tmp/frontend.zip
 stat $? 
 
