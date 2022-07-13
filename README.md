@@ -193,4 +193,5 @@ What standards do we follow while developing the code?
 
 **** V.IMP ****
 
-When dealing with internal DNS Records, if you delete XYZ Record and recreate it, sometimes they won't work
+When dealing with internal DNS Records, if you delete XYZ Record and recreate it, sometimes they won't work.
+Always prefer not to delete, instead just update.
