@@ -46,8 +46,8 @@ stat $?
 echo -n "Starting $COMPONENT service: "
 systemctl daemon-reload 
 systemctl start catalogue 
-systemctl enable catalogue 
-systemctl status catalogue -l
+systemctl enable catalogue  &>> $LOGFILE  
+systemctl status catalogue -l &>> $LOGFILE 
 
 # 1. Update SystemD file with correct IP addresses
     
