@@ -26,7 +26,7 @@ echo -n "Performing cleanup: "
 cd /home/roboshop/ && rm -rf ${COMPONENT}  &>> $LOGFILE 
 stat $?
 
-
+echo -n "Extracting "
 cd /home/roboshop
 unzip -o /tmp/${COMPONENT}.zip  &>> $LOGFILE 
 mv ${COMPONENT}-main ${COMPONENT}
