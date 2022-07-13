@@ -32,6 +32,7 @@ cd /home/roboshop
 unzip -o /tmp/${COMPONENT}.zip  &>> $LOGFILE 
 mv ${COMPONENT}-main ${COMPONENT}  &&  chown -R $APPUSER:$APPUSER $COMPONENT
 cd ${COMPONENT}
+stat $?
 
 echo -n "Installing $COMPONENT: "
 npm install  &>> $LOGFILE
