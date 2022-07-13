@@ -48,6 +48,7 @@ systemctl daemon-reload
 systemctl start catalogue 
 systemctl enable catalogue  &>> $LOGFILE  
 systemctl status catalogue -l &>> $LOGFILE 
+stat $? 
 
 # 1. Update SystemD file with correct IP addresses
     
