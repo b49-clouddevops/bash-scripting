@@ -27,6 +27,8 @@ NODEJS() {
     #Calling user creation function
     CREATE_USER
 
+    DOWNLOAD_AND_EXTRACT
+
 }
 
 CREATE_USER() {
