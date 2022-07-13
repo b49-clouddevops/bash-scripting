@@ -29,7 +29,7 @@ stat $?
 echo -n "Extracting $COMPONENT: "
 cd /home/roboshop
 unzip -o /tmp/${COMPONENT}.zip  &>> $LOGFILE 
-mv ${COMPONENT}-main ${COMPONENT}
+mv ${COMPONENT}-main ${COMPONENT}  &&  
 cd /home/roboshop/${COMPONENT}
 
 echo -n "Installing $COMPONENT: "
