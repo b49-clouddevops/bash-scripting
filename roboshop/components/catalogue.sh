@@ -23,7 +23,8 @@ curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${CO
 stat $? 
 
 echo -n "Performing cleanup: "
-cd /home/roboship/ && rm -rf ${COMPONENT} 
+cd /home/roboship/ && rm -rf ${COMPONENT}  &>> $LOGFILE 
+stat $?
 
 
 cd /home/roboshop
