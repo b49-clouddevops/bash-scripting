@@ -30,7 +30,7 @@ stat $?
 echo -n "Extracting $COMPONENT: "
 cd /home/roboshop
 unzip -o /tmp/${COMPONENT}.zip  &>> $LOGFILE 
-mv ${COMPONENT}-main ${COMPONENT}  &&  chown -R $APPUSER:$APPUSER $COMPONENT  ( chmod )
+mv ${COMPONENT}-main ${COMPONENT}  &&  chown -R $APPUSER:$APPUSER $COMPONENT 
 cd ${COMPONENT}
 stat $?
 
