@@ -197,6 +197,3 @@ When dealing with internal DNS Records, if you delete XYZ Record and recreate it
 Always prefer not to delete, instead just update.
 
 ```
-
-
-frontend.roboshop.internal  ---> 
