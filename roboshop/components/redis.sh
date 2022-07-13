@@ -18,6 +18,8 @@ echo -n "Updating the $COMPONENT listenting address: "
 sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/redis.conf  /etc/redis/redis.conf &>> $LOGFILE 
 stat $? 
 
+
+
 # 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
 
 # # vim /etc/redis.conf
