@@ -191,4 +191,6 @@ What standards do we follow while developing the code?
 ```
 
 
-**** V.IMP ***
+**** V.IMP ****
+
+When dealing with internal DNS Records, if you delete XYZ Record and recreate it, sometimes they won't work
