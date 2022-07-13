@@ -72,7 +72,7 @@ CONFIG_SERVICE() {
 START_SERVICE() {
     echo -n "Starting $COMPONENT service: "
     systemctl daemon-reload 
-    systemctl restart catalogue 
+    systemctl restart $COMPONENT 
     systemctl enable catalogue  &>> $LOGFILE  
     systemctl status catalogue -l &>> $LOGFILE 
     stat $?     
