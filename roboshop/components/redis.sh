@@ -22,12 +22,3 @@ stat $?
 START_SERVICE
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
-
-# 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
-
-# # vim /etc/redis.conf
-# # vim /etc/redis/redis.conf
-
-# # systemctl enable redis
-# # systemctl start redis
-# # systemctl status redis -l
