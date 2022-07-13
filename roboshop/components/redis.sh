@@ -11,3 +11,6 @@ source components/common.sh
 
 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
 
+# vim /etc/redis.conf
+# vim /etc/redis/redis.conf
+
