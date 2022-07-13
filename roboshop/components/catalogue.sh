@@ -39,7 +39,7 @@ npm install  &>> $LOGFILE
 stat $? 
 
 echo -n "Configuring $COMPONENT service: "
-sed -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
+sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
 
 # 1. Update SystemD file with correct IP addresses
     
