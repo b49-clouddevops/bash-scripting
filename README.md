@@ -179,10 +179,13 @@ else
 fi  -->
 
 
-### Makefile is a industry standard wrapper for calling scripts:
+## Makefile is a industry standard wrapper for calling scripts, warns us in case of no changes and some meaningful errors
 
-What to do ?
+What standards do we follow while developing the code?
+```
 1) I want tht script to be run as a ROOT user, without which I want to give user a ERROR Message stating Run it as root or sudo user. 
 2) I also need success or failure messages for all the steps.
 3) If any of the steps fails, I want my script to exit completely and don't want to proceed.
 4) We also need to ensure, that re-run of the script should work.
+5) Code should be absolutely DRY, avoid repetitive blocks of code.
+```
