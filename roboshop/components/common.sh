@@ -26,5 +26,7 @@ NODEJS() {
 }
 
 CREATE_USER() {
-    
+    echo -n "Creating the roboshop user: "
+    id roboshop &>> $LOGFILE || useradd roboshop 
+    stat $? 
 }
