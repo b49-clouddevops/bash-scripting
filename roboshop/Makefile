@@ -12,3 +12,6 @@ cart:
 
 redis:
 	sh components/redis.sh
+
+user:
+	sh components/redis.sh
