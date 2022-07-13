@@ -10,7 +10,7 @@ echo -n "Configuring $COMPONENT repo: "
 curl -L https://raw.githubusercontent.com/stans-robot-project/$COMPONENT/main/$COMPONENT.repo -o /etc/yum.repos.d/$COMPONENT.repo
 stat $?
 
-echo -n "Installing $COMP"
+echo -n "Installing $COMPONENT: "
 yum install redis-6.2.7 -y
 
 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
