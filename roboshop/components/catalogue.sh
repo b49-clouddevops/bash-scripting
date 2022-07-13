@@ -14,7 +14,6 @@ echo -n "Installing NodeJS: "
 yum install nodejs -y &>> $LOGFILE 
 stat $? 
 
-
 echo -n "Creating the roboshop user: "
 id roboshop &>> $LOGFILE || useradd roboshop 
 stat $? 
