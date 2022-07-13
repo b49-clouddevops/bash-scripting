@@ -40,7 +40,7 @@ stat $?
 
 echo -n "Configuring $COMPONENT service: "
 sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
-mv /home/$APPUSER/
+mv /home/$APPUSER/$COMPONENT/ /etc 
 
 # 1. Update SystemD file with correct IP addresses
     
