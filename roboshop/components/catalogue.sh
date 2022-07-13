@@ -10,9 +10,6 @@ source components/common.sh
 NODEJS 
 
 
-
-
-
 echo -n "Configuring $COMPONENT service: "
 sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
 mv /home/$APPUSER/$COMPONENT/systemd.service  /etc/systemd/system/catalogue.service
