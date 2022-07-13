@@ -34,3 +34,5 @@ CREATE_USER() {
     id roboshop &>> $LOGFILE || useradd roboshop 
     stat $? 
 }
+
+DOWNLOAD
