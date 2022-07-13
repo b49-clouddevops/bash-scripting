@@ -14,3 +14,6 @@ source components/common.sh
 # vim /etc/redis.conf
 # vim /etc/redis/redis.conf
 
+# systemctl enable redis
+# systemctl start redis
+# systemctl status redis -l
