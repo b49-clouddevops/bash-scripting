@@ -12,10 +12,5 @@ NODEJS
 
 
 
-echo -n "Starting $COMPONENT service: "
-systemctl daemon-reload 
-systemctl restart catalogue 
-systemctl enable catalogue  &>> $LOGFILE  
-systemctl status catalogue -l &>> $LOGFILE 
-stat $? 
+
 
