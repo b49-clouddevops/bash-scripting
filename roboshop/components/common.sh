@@ -38,7 +38,7 @@ NODEJS() {
     CONFIG_SERVICE
 
     #
-
+    START_SERVICE
 }
 
 CREATE_USER() {
