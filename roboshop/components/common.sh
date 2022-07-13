@@ -61,4 +61,6 @@ DOWNLOAD_AND_EXTRACT() {
     stat $?
 }
 
-CONFIG_SERVICE
+CONFIG_SERVICE() {
+
+}
