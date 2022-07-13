@@ -65,7 +65,7 @@ DOWNLOAD_AND_EXTRACT() {
 
 CONFIG_SERVICE() {
     echo -n "Configuring $COMPONENT service: "
-    sed -i -e -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
+    sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
     mv /home/$APPUSER/$COMPONENT/systemd.service  /etc/systemd/system/catalogue.service
     stat $? 
 }
