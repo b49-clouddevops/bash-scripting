@@ -44,7 +44,10 @@ mv /home/$APPUSER/$COMPONENT/systemd.service  /etc/systemd/system/catalogue.serv
 stat $? 
 
 echo -n "Starting $COMPONENT service: "
-
+# # systemctl daemon-reload
+# # systemctl start catalogue
+# # systemctl enable catalogue
+# # systemctl status catalogue -l
 
 # 1. Update SystemD file with correct IP addresses
     
