@@ -7,7 +7,7 @@ APPUSER="roboshop"
 source components/common.sh
 
 
-
+NODEJS 
 
 echo -n "Creating the roboshop user: "
 id roboshop &>> $LOGFILE || useradd roboshop 
