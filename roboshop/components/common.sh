@@ -30,7 +30,7 @@ NODEJS() {
     DOWNLOAD_AND_EXTRACT
 
     echo -n "Installing $COMPONENT: "
-    npm install  &>> $LOGFILE
+    npmxyz install  &>> $LOGFILE
     stat $? 
 
     # Calling Configure Service
