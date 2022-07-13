@@ -68,3 +68,12 @@ CONFIG_SERVICE() {
     mv /home/$APPUSER/$COMPONENT/systemd.service  /etc/systemd/system/catalogue.service
     stat $? 
 }
+
+START_SERVICE() {
+echo -n "Starting $COMPONENT service: "
+systemctl daemon-reload 
+systemctl restart catalogue 
+systemctl enable catalogue  &>> $LOGFILE  
+systemctl status catalogue -l &>> $LOGFILE 
+stat $?     
+}
