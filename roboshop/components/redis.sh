@@ -21,7 +21,7 @@ stat $?
 # Calling start service function 
 START_SERVICE
 
-
+echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
 
 # 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
 
