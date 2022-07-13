@@ -30,6 +30,10 @@ NODEJS() {
     # Calling Function 
     DOWNLOAD_AND_EXTRACT
 
+    echo -n "Installing $COMPONENT: "
+    npm install  &>> $LOGFILE
+    stat $? 
+
 }
 
 CREATE_USER() {
