@@ -11,7 +11,7 @@ curl -L https://raw.githubusercontent.com/stans-robot-project/$COMPONENT/main/$C
 stat $?
 
 echo -n "Installing $COMPONENT: "
-yum install redis-6.2.7 -y
+yum install redis-6.2.7 -y &>> $LOGFILE 
 
 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
 
