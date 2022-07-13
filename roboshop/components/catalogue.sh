@@ -38,6 +38,9 @@ echo -n "Installing $COMPONENT: "
 npm install  &>> $LOGFILE
 stat $? 
 
+echo -n "Configuring $COMPONENT service: "
+
+
 # 1. Update SystemD file with correct IP addresses
     
 #     Update `MONGO_DNSNAME` with MongoDB Server IP
