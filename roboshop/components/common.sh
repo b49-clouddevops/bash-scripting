@@ -37,7 +37,7 @@ NODEJS() {
     # Calling Configure Service
     CONFIG_SERVICE
 
-    #
+    # Calling Configure Service
     START_SERVICE
 }
 
