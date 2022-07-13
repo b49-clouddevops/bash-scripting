@@ -17,7 +17,6 @@ stat $?
 
 echo -n "Creating the roboshop user: "
 id roboshop &>> $LOGFILE || useradd roboshop 
-useradd roboshop
 stat $? 
 
 echo -n "Downloading $COMPONENT repo: "
