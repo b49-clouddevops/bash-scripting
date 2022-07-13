@@ -59,5 +59,6 @@ DOWNLOAD_AND_EXTRACT() {
     mv ${COMPONENT}-main ${COMPONENT}  &&  chown -R $APPUSER:$APPUSER $COMPONENT 
     cd ${COMPONENT}
     stat $?
-
 }
+
+CONFIG_SERVICE
