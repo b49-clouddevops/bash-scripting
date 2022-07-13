@@ -20,6 +20,7 @@ stat $?
 
 echo -n "Downloading $COMPONENT repo: "
 curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${COMPONENT}/archive/main.zip"
+
 cd /home/roboshop
 unzip /tmp/${COMPONENT}.zip  &>> $LOGFILE 
 mv ${COMPONENT}-main ${COMPONENT}
