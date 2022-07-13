@@ -23,7 +23,7 @@ curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/stans-robot-project/${CO
 stat $? 
 
 cd /home/roboshop
-unzip /tmp/${COMPONENT}.zip  &>> $LOGFILE 
+unzip -o /tmp/${COMPONENT}.zip  &>> $LOGFILE 
 mv ${COMPONENT}-main ${COMPONENT}
 cd /home/roboshop/${COMPONENT}
 
