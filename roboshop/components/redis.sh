@@ -14,6 +14,8 @@ echo -n "Installing $COMPONENT: "
 yum install redis-6.2.7 -y &>> $LOGFILE 
 stat $?
 
+
+
 # 2. Update the BindIP from `127.0.0.1` to `0.0.0.0` in config file `/etc/redis.conf` & `/etc/redis/redis.conf`
 
 # # vim /etc/redis.conf
