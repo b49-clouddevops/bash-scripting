@@ -35,4 +35,7 @@ CREATE_USER() {
     stat $? 
 }
 
-DOWNLOAD
+DOWNLOAD_AND_EXTRACT() {
+
+
+}
