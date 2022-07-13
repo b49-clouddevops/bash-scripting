@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e 
-COMPONENT=user 
+COMPONENT=cart 
 LOGFILE="/tmp/$COMPONENT.log"
 APPUSER="roboshop"
 
