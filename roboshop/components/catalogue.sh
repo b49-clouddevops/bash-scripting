@@ -7,13 +7,7 @@ APPUSER="roboshop"
 source components/common.sh
 
 
-echo -n "Configuring NodeJS Repo: "
-curl -sL https://rpm.nodesource.com/setup_lts.x | bash &>> $LOGFILE
-stat $? 
 
-echo -n "Installing NodeJS: "
-yum install nodejs -y &>> $LOGFILE 
-stat $? 
 
 echo -n "Creating the roboshop user: "
 id roboshop &>> $LOGFILE || useradd roboshop 
