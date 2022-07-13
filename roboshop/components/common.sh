@@ -24,3 +24,7 @@ NODEJS() {
     yum install nodejs -y &>> $LOGFILE 
     stat $? 
 }
+
+CREATE_USER() {
+    
+}
