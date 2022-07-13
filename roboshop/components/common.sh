@@ -34,6 +34,7 @@ NODEJS() {
     npm install  &>> $LOGFILE
     stat $? 
 
+
     CONFIG_SERVICE
 
 }
