@@ -11,4 +11,4 @@ cart:
 	sh components/cart.sh
 
 redis:
-	sh components/redis.sh
+sh components/redis.sh
