@@ -6,7 +6,7 @@ APPUSER="roboshop"
 
 source components/common.sh
 
-
+# Calling NodeJS Function
 NODEJS 
 
 echo -n "Creating the roboshop user: "
