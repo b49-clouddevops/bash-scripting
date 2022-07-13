@@ -11,9 +11,7 @@ NODEJS
 
 
 
-echo -n "Installing $COMPONENT: "
-npm install  &>> $LOGFILE
-stat $? 
+
 
 echo -n "Configuring $COMPONENT service: "
 sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
