@@ -35,7 +35,7 @@ if [ $? -eq 0 ]; then
     echo 'uninstall plugin validate_password;' > /tmp/password-validate.sql 
     mysql  --connect-expired-password -uroot -pRoboShop@1 </tmp/password-validate.sql &>> $LOGFILE 
     stat $? 
-fi 
+fi
 
 echo -n "Downloading the schema: "
 curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
