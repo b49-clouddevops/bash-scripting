@@ -22,6 +22,9 @@ MAVEN(){
     #Calling user creation function
     CREATE_USER
 
+    # Calling Function 
+    DOWNLOAD_AND_EXTRACT
+
 }
 
 NODEJS() {
