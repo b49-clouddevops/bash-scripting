@@ -25,6 +25,7 @@ MAVEN(){
     # Calling Function 
     DOWNLOAD_AND_EXTRACT 
 
+    echo -n "Packaging the #COMPONENT Artifact: "
     mvn clean package  &>> $LOGFILE  &&  mv target/$COMPONENT-1.0.jar $COMPONENT.jar
     stat $?
 
