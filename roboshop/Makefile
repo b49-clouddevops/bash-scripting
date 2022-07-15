@@ -19,3 +19,5 @@ user:
 mysql:
 	sh components/mysql.sh
 
+mysql:
+	sh components/mysql.sh
