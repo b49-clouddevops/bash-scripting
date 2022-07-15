@@ -19,5 +19,5 @@ user:
 mysql:
 	sh components/mysql.sh
 
-mysql:
-	sh components/mysql.sh
+shipping:
+	sh components/shipping.sh
