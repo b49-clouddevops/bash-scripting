@@ -37,7 +37,7 @@ if [ $? -eq 0 ]; then
     stat $? 
 fi 
 
-echo -n ""
+echo -n "Downloading the schema: "
 # To download schema, Use the following command
 # curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
 # cd /tmp
