@@ -4,6 +4,7 @@ COMPONENT=mysql
 LOGFILE="/tmp/$COMPONENT.log"
 source components/common.sh 
 REPO_URL="https://raw.githubusercontent.com/stans-robot-project/$COMPONENT/main/mysql.repo"
+SCHEMA_URL="https://github.com/stans-robot-project/mysql/archive/main.zip"
 
 echo -n "Configuring the $COMPONENT Repo:  "
 curl -s -L -o /etc/yum.repos.d/mysql.repo $REPO_URL 
