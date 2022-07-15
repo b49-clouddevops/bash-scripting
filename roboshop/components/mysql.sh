@@ -19,6 +19,8 @@ stat $?
 
 
 # We need to handle this only for the first time
+echo "show databases" | mysql -uroot -pRoboShop@1 
+
 echo -n "Changing the default $COMPONENT root password: "
 echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" > /tmp/rootpassword_change.sql
 DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
