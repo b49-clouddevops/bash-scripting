@@ -28,7 +28,7 @@ if [ 0 -ne $? ]; then
 fi 
 
 # We need to handle this only for the first time
-echo "show databases" | mysql -uroot -pRoboShop@1 &>> $LOGFILE 
+echo "show plugins" | mysql -uroot -pRoboShop@1 &>> $LOGFILE 
 if [ 0 -ne $? ]; then 
     echo -n "Changing the default $COMPONENT root password: "
     echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" > /tmp/rootpassword_change.sql
