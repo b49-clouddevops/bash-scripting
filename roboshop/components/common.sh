@@ -25,7 +25,7 @@ MAVEN(){
     # Calling Function 
     DOWNLOAD_AND_EXTRACT 
 
-    mvn clean package  &>> $LOGFILE
+    mvn clean package  &>> $LOGFILE  && 
 
 }
 
