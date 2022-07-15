@@ -28,7 +28,7 @@ if [ 0 -ne $? ]; then
 fi 
 
 # We need to handle this only for the first time
-echo "Text "
+echo "Test Message"
 echo show plugins | mysql -uroot -pRoboShop@1 2>> $LOGFILE | grep validate_password  &>> $LOGFILE 
 if [ $? -eq 0 ]; then      
     echo -n "Uninstalling Password Validate Plugin: "
