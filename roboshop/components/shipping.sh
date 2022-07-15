@@ -7,6 +7,6 @@ APPUSER="roboshop"
 source components/common.sh
 
 # Calling MAVEN Function
-NODEJS 
+MAVEN
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
