@@ -38,13 +38,6 @@ fi
 
 
 
-# mysql_secure_installation
-```bash
-# yum install mysql-community-server -y
-```
-```bash
-# yum install mysql-community-server -y
-```
 # Load the schema
 # To download schema, Use the following command
 # curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archive/main.zip"
