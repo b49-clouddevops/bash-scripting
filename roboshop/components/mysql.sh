@@ -24,7 +24,7 @@ if [ 0 -ne $? ]; then
     echo -n "Changing the default $COMPONENT root password: "
     echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" > /tmp/rootpassword_change.sql
     DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
-   echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" |  mysql  --connect-expired-password -uroot -p"$DEFAULT_ROOT_PASSWORD"  < /tmp/rootpassword_change.sql
+    mysql  --connect-expired-password -uroot -p"$DEFAULT_ROOT_PASSWORD"  < /tmp/rootpassword_change.sql
     stat $? 
 fi 
 
