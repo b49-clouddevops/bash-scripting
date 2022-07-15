@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e 
+se
 COMPONENT=mysql  
 LOGFILE="/tmp/$COMPONENT.log"
 source components/common.sh 
