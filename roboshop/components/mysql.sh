@@ -17,7 +17,6 @@ echo -n "Starting the $COMPONENT: "
 systemctl enable mysqld &>> $LOGFILE  && systemctl start mysqld &>> $LOGFILE 
 stat $? 
 
-
 # We need to handle this only for the first time
 echo "show databases" | mysql -uroot -pRoboShop@1 &>> $LOGFILE 
 if [ 0 -ne $? ]; then 
