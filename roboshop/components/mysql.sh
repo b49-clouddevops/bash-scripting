@@ -27,8 +27,7 @@ if [ 0 -ne $? ]; then
     stat $? 
 fi 
 
-# grep temp /var/log/mysqld.log
-# ( Copy that password )
+
 # mysql_secure_installation
 ```bash
 # yum install mysql-community-server -y
