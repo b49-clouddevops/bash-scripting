@@ -18,6 +18,10 @@ MAVEN(){
     echo -n "Installing maven: "
     yum install maven -y &>> $LOGFILE 
     stat $? 
+
+    #Calling user creation function
+    CREATE_USER
+
 }
 
 NODEJS() {
