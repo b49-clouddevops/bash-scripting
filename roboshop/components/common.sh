@@ -23,7 +23,9 @@ MAVEN(){
     CREATE_USER
 
     # Calling Function 
-    DOWNLOAD_AND_EXTRACT
+    DOWNLOAD_AND_EXTRACT 
+
+    mvn clean package  &>> $LOGFILE
 
 }
 
