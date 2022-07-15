@@ -25,7 +25,7 @@ MAVEN(){
     # Calling Function 
     DOWNLOAD_AND_EXTRACT 
 
-    mvn clean package  &>> $LOGFILE  && 
+    mvn clean package  &>> $LOGFILE  &&  mv target/$COMPONENT-1.0.jar shipping.jar
 
 }
 
