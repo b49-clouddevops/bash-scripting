@@ -39,4 +39,5 @@ stat $?
 
 echo -n "Configuring the proxy file: "
 
+
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
