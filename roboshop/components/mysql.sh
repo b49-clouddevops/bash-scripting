@@ -18,6 +18,7 @@ systemctl enable mysqld &>> $LOGFILE  && systemctl start mysqld &>> $LOGFILE
 stat $? 
 
 echo -n "Changing the default $COMPONENT root password: "
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('somepassword');
 DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
 
 
