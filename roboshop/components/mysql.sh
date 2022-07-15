@@ -21,6 +21,7 @@ echo -n "Changing the default $COMPONENT root password: "
 echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" > /tmp/rootpassword_change.sql
 DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
 mysql  -uroot -p"$DEFAULT_ROOT_PASSWORD"  < /tmp/rootpassword_change.sql
+stat $? 
 
 
 # grep temp /var/log/mysqld.log
