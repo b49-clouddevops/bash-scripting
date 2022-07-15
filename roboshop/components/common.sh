@@ -29,6 +29,9 @@ MAVEN(){
     mvn clean package  &>> $LOGFILE  &&  mv target/$COMPONENT-1.0.jar $COMPONENT.jar
     stat $?
 
+    # Calling Configure Service
+    CONFIG_SERVICE
+
 }
 
 NODEJS() {
