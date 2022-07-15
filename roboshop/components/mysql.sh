@@ -39,7 +39,9 @@ fi
 
 echo -n "Downloading the schema: "
 curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
+stat $? 
 
+echo -n "Extracting the schema: "
 # cd /tmp
 # unzip mysql.zip
 # cd mysql-main
