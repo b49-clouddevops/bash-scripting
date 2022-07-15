@@ -17,9 +17,8 @@ echo -n "Starting the $COMPONENT: "
 systemctl enable mysqld &>> $LOGFILE  && systemctl start mysqld &>> $LOGFILE 
 stat $? 
 
+echo -n ""
 
-# systemctl enable mysqld 
-# systemctl start mysqld
 # grep temp /var/log/mysqld.log
 # ( Copy that password )
 # mysql_secure_installation
