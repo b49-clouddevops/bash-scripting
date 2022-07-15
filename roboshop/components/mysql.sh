@@ -17,7 +17,7 @@ echo -n "Starting the $COMPONENT: "
 systemctl enable mysqld &>> $LOGFILE  && systemctl start mysqld &>> $LOGFILE 
 stat $? 
 
-echo -n ""
+echo -n "Changing the default root password: "
 
 # grep temp /var/log/mysqld.log
 # ( Copy that password )
