@@ -19,6 +19,7 @@ stat $?
 
 echo -n "Changing the default root password: "
 
+
 # grep temp /var/log/mysqld.log
 # ( Copy that password )
 # mysql_secure_installation
