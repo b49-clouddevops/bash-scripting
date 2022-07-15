@@ -35,5 +35,10 @@ stat $?
 
 echo -n "Configuring the proxy file: "
 sed -i -e '/shipping/s/localhost/shipping.roboshop.internal/' -e '/user/s/localhost/user.roboshop.internal/' -e '/cart/s/localhost/cart.roboshop.internal/' -e '/catalogue/s/localhost/catalogue.roboshop.internal/' /etc/nginx/default.d/roboshop.conf
+stat $? 
+
+echo -n "Retarting Nginx: "
+systemctl restart nginx
+stat $?
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
