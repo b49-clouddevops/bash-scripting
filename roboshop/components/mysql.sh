@@ -41,7 +41,7 @@ fi
 
 # Load the schema
 # To download schema, Use the following command
-# curl -s -L -o /tmp/mysql.zip "https://github.com/stans-robot-project/mysql/archive/main.zip"
+# curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
 # cd /tmp
 # unzip mysql.zip
 # cd mysql-main
