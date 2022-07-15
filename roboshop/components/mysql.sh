@@ -38,8 +38,8 @@ if [ $? -eq 0 ]; then
 fi 
 
 echo -n "Downloading the schema: "
-# To download schema, Use the following command
-# curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
+curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
+
 # cd /tmp
 # unzip mysql.zip
 # cd mysql-main
