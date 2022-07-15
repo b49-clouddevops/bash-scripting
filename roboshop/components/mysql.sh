@@ -17,9 +17,8 @@ echo -n "Starting the $COMPONENT: "
 systemctl enable mysqld &>> $LOGFILE  && systemctl start mysqld &>> $LOGFILE 
 stat $? 
 
-echo -n "Changing the default $COMPON root password: "
+echo -n "Changing the default $COMPONENT root password: "
 DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
-
 
 
 # grep temp /var/log/mysqld.log
