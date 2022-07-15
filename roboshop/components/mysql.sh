@@ -42,7 +42,7 @@ curl -s -L -o /tmp/mysql.zip $SCHEMA_URL
 stat $? 
 
 echo -n "Extracting the schema: "
-# cd /tmp
-# unzip mysql.zip
-# cd mysql-main
+cd /tmp
+unzip mysql.zip 
+cd mysql-main
 # mysql -u root -pRoboShop@1 <shipping.sql
