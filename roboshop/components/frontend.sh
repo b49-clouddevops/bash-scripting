@@ -38,6 +38,6 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $? 
 
 echo -n "Configuring the proxy file: "
-sed -i -e '/catalogue/s/localhost/catalogue.roboshop.internal/' /etc/nginx/default.d/roboshop.conf
+sed -i -e '/cart/s/localhost/catacartlogue.roboshop.internal/' -e '/catalogue/s/localhost/catalogue.roboshop.internal/' /etc/nginx/default.d/roboshop.conf
 
 echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
