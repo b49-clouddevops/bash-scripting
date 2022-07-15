@@ -16,7 +16,8 @@ stat() {
 
 MAVEN(){
     echo -n "Installing maven: "
-    yum install maven -y 
+    yum install maven -y &>> $LOGFILE 
+    stat $? 
 }
 
 NODEJS() {
