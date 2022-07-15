@@ -32,6 +32,7 @@ MAVEN(){
     # Calling Configure Service
     CONFIG_SERVICE
 
+
 }
 
 NODEJS() {
