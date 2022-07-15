@@ -17,5 +17,5 @@ user:
 	sh components/user.sh
 
 mysql:
-	sh components/user.sh
+	sh components/mysql.sh
 
