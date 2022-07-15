@@ -15,7 +15,7 @@ stat() {
 }
 
 MAVEN(){
-    
+    echo -n yum install maven -y
 }
 
 NODEJS() {
