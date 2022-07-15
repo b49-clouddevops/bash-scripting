@@ -32,6 +32,8 @@ echo "show plugins" | mysql -uroot -pRoboShop@1 &>> $LOGFILE | grep validate_pas
 if [ $? -eq 0 ]; then 
      
     echo -n "Uninstalling Password Validate Plugin: "
+ 
+
     echo -n "Changing the default $COMPONENT root password: "
     echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RoboShop@1');" > /tmp/rootpassword_change.sql
     DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
