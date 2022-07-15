@@ -44,5 +44,7 @@ stat $?
 echo -n "Extracting the schema: "
 cd /tmp
 unzip -o mysql.zip  &>> $LOGFILE 
+stat $? 
+
 cd mysql-main
 # mysql -u root -pRoboShop@1 <shipping.sql
