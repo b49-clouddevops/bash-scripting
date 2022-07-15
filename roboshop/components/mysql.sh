@@ -21,6 +21,7 @@ echo -n "Changing the default root password: "
 DEFAULT_ROOT_PASSWORD=$(sudo grep "temporary password" /var/log/mysqld.log | awk '{print $NF}')
 
 
+
 # grep temp /var/log/mysqld.log
 # ( Copy that password )
 # mysql_secure_installation
