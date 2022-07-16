@@ -15,7 +15,8 @@ stat() {
 }
 
 PYTHON(){
-    echo -n ""
+    echo -n "Installing Python: "
+    yum install python36 gcc python3-devel -y  &>> $LOGFILE  
 }
 
 MAVEN(){
