@@ -34,3 +34,5 @@ rabbitmqctl set_permissions -p / $APPUSER ".*" ".*" ".*"  &>> $LOGFILE
 stat $?
 
 # #We are good with rabbitmq.Next component is PAYMENT
+
+echo -e " ____________________ \e[32m $COMPONENT Configuration is completed ____________________ \e[0m"
