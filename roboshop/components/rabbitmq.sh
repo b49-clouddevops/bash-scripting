@@ -28,7 +28,7 @@ rabbitmqctl add_user $APPUSER roboshop123
 stat $? 
 fi 
 
-echo -n "Configuring $APPUSER "
+echo -n "Configuring $APPUSER perm"
 # rabbitmqctl set_user_tags $APPUSER administrator
 # rabbitmqctl set_permissions -p / $APPUSER ".*" ".*" ".*"
 
