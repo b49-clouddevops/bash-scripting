@@ -30,6 +30,7 @@ PYTHON(){
     stat $?
 
     echo -n "Updating the App Config $COMPONENT.ini"
+    USER_ID=
 
 }
 
