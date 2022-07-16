@@ -14,9 +14,7 @@ echo -n "Installing $PAYMENT Depenency Package Erlang"
 yum install https://github.com/rabbitmq/erlang-rpm/releases/download/v23.2.6/erlang-23.2.6-1.el7.x86_64.rpm rabbitmq-server -y &>> $LOGFILE
 stat $? 
 
-echo -n "Installng $COMPONENT: "
-yum install rabbitmq-server -y &>> $LOGFILE
-stat $? 
+
 
 echo -n "Starting $COMPONENT: "
 systemctl enable rabbitmq-server &>> $LOGFILE 
