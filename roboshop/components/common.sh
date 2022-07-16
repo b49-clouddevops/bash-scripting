@@ -111,12 +111,6 @@ DOWNLOAD_AND_EXTRACT() {
     stat $?
 }
 
-Update `CARTHOST` with cart server ip
-
-Update `USERHOST` with user server ip 
-
-Update `AMQPHOST` with RabbitMQ server ip.
-
 CONFIG_SERVICE() {
     echo -n "Configuring $COMPONENT service: "
     sed -i -e 's/AMQPHOST/rabbitmq.roboshop.internal/' 's/USERHOST/user.roboshop.internal/' -e 's/CARTHOST/cart.roboshop.internal/' -e 's/DBHOST/mysql.roboshop.internal/' -e 's/CARTENDPOINT/cart.roboshop.internal/' -e 's/CATALOGUE_ENDPOINT/catalogue.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/'  -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' systemd.service
