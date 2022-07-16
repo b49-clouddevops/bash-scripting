@@ -31,7 +31,7 @@ PYTHON(){
 
     echo -n "Updating the App Config $COMPONENT.ini"
     USER_ID=$(id -u roboshop)
-    USER_ID=$(id -u roboshop)
+    GROUP_ID=$(id -g roboshop)
 
 }
 
