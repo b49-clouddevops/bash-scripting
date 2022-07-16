@@ -15,7 +15,7 @@ stat() {
 }
 
 PYTHON(){
-    
+    echo -n ""
 }
 
 MAVEN(){
