@@ -29,6 +29,8 @@ PYTHON(){
     pip3 install -r requirements.txt &>> $LOGFILE  
     stat $?
 
+    echo -n "Updating the App Config $COMPONENT.ini"
+
 }
 
 MAVEN(){
