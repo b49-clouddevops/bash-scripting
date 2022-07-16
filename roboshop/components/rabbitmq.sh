@@ -29,7 +29,7 @@ stat $?
 fi 
 
 echo -n "Configuring $APPUSER permissions for $COMPONENT"
-rabbitmqctl set_user_tags $APPUSER administrator
-rabbitmqctl set_permissions -p / $APPUSER ".*" ".*" ".*"
+rabbitmqctl set_user_tags $APPUSER administrator  &>> $LOGFILE 
+rabbitmqctl set_permissions -p / $APPUSER ".*" ".*" ".*"  &>> $LOGFILE
 
 # #We are good with rabbitmq.Next component is PAYMENT
