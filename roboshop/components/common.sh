@@ -26,6 +26,8 @@ PYTHON(){
     DOWNLOAD_AND_EXTRACT 
 
     echo -n "Installing $COMPONENT: "
+     pip3 install -r requirements.txt &>> $LOGFILE  
+     stat $?
 
 }
 
