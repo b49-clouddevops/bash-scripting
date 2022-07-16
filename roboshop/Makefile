@@ -24,3 +24,6 @@ shipping:
 
 rabbitmq:
 	sh components/rabbitmq.sh
+
+rabbitmq:
+	sh components/rabbitmq.sh
