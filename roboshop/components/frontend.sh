@@ -34,7 +34,7 @@ mv localhost.conf /etc/nginx/default.d/roboshop.conf
 stat $? 
 
 echo -n "Configuring the proxy file: "
-sed -i  -e '/shipping/s/localhost/shipping.roboshop.internal/' -e '/shipping/s/localhost/shipping.roboshop.internal/' -e '/user/s/localhost/user.roboshop.internal/' -e '/cart/s/localhost/cart.roboshop.internal/' -e '/catalogue/s/localhost/catalogue.roboshop.internal/' /etc/nginx/default.d/roboshop.conf
+sed -i  -e '/payment/s/localhost/payment.roboshop.internal/' -e '/shipping/s/localhost/shipping.roboshop.internal/' -e '/user/s/localhost/user.roboshop.internal/' -e '/cart/s/localhost/cart.roboshop.internal/' -e '/catalogue/s/localhost/catalogue.roboshop.internal/' /etc/nginx/default.d/roboshop.conf
 stat $? 
 
 echo -n "Retarting Nginx: "
