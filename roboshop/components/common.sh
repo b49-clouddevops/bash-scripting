@@ -25,6 +25,8 @@ PYTHON(){
     # Calling Function 
     DOWNLOAD_AND_EXTRACT 
 
+    echo -n "Installing "
+
 }
 
 MAVEN(){
