@@ -14,6 +14,8 @@ stat() {
     fi 
 }
 
+PYTHON()
+
 MAVEN(){
     echo -n "Installing maven: "
     yum install maven -y &>> $LOGFILE 
