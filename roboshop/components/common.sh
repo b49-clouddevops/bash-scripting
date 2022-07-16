@@ -32,7 +32,7 @@ PYTHON(){
     echo -n "Updating the App Config $COMPONENT.ini"
     USER_ID=$(id -u roboshop)
     GROUP_ID=$(id -g roboshop)
-    sed -i -e "/uid/ c uid = $USER_ID"  -e "/gid/ c gid = $GROUP_ID" payment.ini
+    sed -i -e "/uid/ c uid = $USER_ID"  -e "/gid/ c gid = $GROUP_ID" $COMPONENT.ini
 
 }
 
