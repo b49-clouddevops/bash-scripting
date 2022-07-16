@@ -33,7 +33,7 @@ PYTHON(){
     USER_ID=$(id -u roboshop)
     GROUP_ID=$(id -g roboshop)
     sed -i -e "/uid/ c uid = $USER_ID"  -e "/gid/ c gid = $GROUP_ID" $COMPONENT.ini
-
+    stat $? 
 }
 
 MAVEN(){
