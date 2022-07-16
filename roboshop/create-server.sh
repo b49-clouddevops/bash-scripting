@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-# THis script creates servers and the associated route53 internal hosted zone records.
+# This script creates servers and the associated route53 internal hosted zone records.
