@@ -27,7 +27,7 @@ systemctl status rabbitmq-server -l &>> $LOGFILE
 stat $?
 
 echo -n "Creating $APPUSER user for rabbitmq: "
-rabbitmqctl add_user $APPUSER roboshop123
+rabbitmqctl add_user $APPUSER roboshop123 &>> $LOGFILE
 stat $? 
 
 # rabbitmqctl set_user_tags $APPUSER administrator
