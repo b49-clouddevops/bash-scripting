@@ -18,6 +18,7 @@ PYTHON(){
     echo -n "Installing Python: "
     yum install python36 gcc python3-devel -y  &>> $LOGFILE  
     stat $? 
+
     #Calling user creation function
     CREATE_USER
 
