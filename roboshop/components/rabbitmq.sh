@@ -22,7 +22,7 @@ stat $?
 systemctl status rabbitmq-server -l &>> $LOGFILE
 stat $?
 
-
+rabbitmqctl list_users |grep roboshop 
 echo -n "Creating $APPUSER user for rabbitmq: "
 rabbitmqctl add_user $APPUSER roboshop123 
 stat $? 
