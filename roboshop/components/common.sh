@@ -14,7 +14,9 @@ stat() {
     fi 
 }
 
-PYTHON()
+PYTHON(){
+    
+}
 
 MAVEN(){
     echo -n "Installing maven: "
