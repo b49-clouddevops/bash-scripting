@@ -21,7 +21,7 @@ stat $?
 
 systemctl status rabbitmq-server -l &>> $LOGFILE
 
-rabbitmqctl list_users |grep roboshop &>> $LOGFILE
+rabbitmqctl list_users |grep $APPUSER &>> $LOGFILE
 if [ $? -ne 0 ] ; then 
 echo -n "Creating $APPUSER user for rabbitmq: "
 rabbitmqctl add_user $APPUSER roboshop123 
