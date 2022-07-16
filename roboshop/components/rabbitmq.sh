@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMPONENT=mysql  
+COMPONENT=rabbitmq  
 LOGFILE="/tmp/$COMPONENT.log"
 source components/common.sh 
 APPUSER=roboshop
