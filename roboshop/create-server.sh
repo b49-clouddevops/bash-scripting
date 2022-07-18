@@ -1,9 +1,7 @@
 #!/bin/bash 
 
 # This script creates servers and the associated route53 internal hosted zone records.
-
 # AMI_ID="ami-0aa718de62aea6fbe"
-
 # Throw an error if the input is null 
 
 if [ "$1" = "" ] ; then 
