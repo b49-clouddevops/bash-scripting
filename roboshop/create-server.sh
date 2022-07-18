@@ -4,6 +4,7 @@
 
 # AMI_ID="ami-0aa718de62aea6fbe"
 
+# 
 
 COMPONENT=$1
 SGID="sg-0bf27dd0bb525e6b9"
