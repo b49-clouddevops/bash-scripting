@@ -22,7 +22,7 @@ create_server() {
 }
 
 
-if [ "$1 == """]
+if [ "$1 == "all" ]
     for component in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis ; do 
         COMPONENT=$
         create_server 
