@@ -8,8 +8,8 @@ SGID="sg-0bf27dd0bb525e6b9"
 
 AMI_ID=$(aws ec2 describe-images  --filters "Name=name,Values=CloudDevOps-LabImage-CentOS7" | jq '.Images[].ImageId' | sed -e 's/"//g')
 echo $AMI_ID 
-echo "$COMPONENT Server Creation in progress"
 
+echo "$COMPONENT Server Creation in progress"
 PRIVATE_IP=$(aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_ID --instance-type t2.micro --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq '.Instances[].PrivateIpAddress' | sed -e 's/"//g')
 
 # # Changing the IP Address and DNS Name as per the component
