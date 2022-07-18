@@ -34,6 +34,6 @@ if [ "$1" == "all" ]; then
         create_server 
     done 
 else 
-    create_server 
+    create_server # Calling
 fi 
  
