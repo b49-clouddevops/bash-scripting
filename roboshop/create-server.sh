@@ -7,7 +7,7 @@
 # Throw an error if the input is null 
 
 if [ "$1" = "" ] ; then 
-    echo -e "\e[32m Valid options are component -name or all \e[0m "
+    echo -e "\e[31m Valid options are component -name or all \e[0m "
     exit 1
 fi 
 
