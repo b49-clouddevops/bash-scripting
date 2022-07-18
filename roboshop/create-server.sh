@@ -22,7 +22,7 @@ create_server() {
 }
 
 create_server 
-f
 
+for 
 
 # 
