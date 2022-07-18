@@ -23,6 +23,6 @@ create_server() {
 
 create_server 
 
-for COMPONENT in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis 
+for COMPONENT in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis ; do 
 
 # 
