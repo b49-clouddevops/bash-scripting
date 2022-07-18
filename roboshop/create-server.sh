@@ -7,7 +7,7 @@
 # Throw an error if the input is null 
 
 if [ "$1" = "" ] ; then 
-    echo -
+    echo -e ""
 fi 
 
 COMPONENT=$1
