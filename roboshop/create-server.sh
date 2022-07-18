@@ -28,4 +28,4 @@ if [ "$1 == "all" ]; then
         create_server 
     done 
 fi 
-# 
+ 
