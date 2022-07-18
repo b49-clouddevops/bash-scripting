@@ -21,10 +21,10 @@ create_server() {
 
 }
 
-create_server 
+
 
 for component in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis ; do 
     COMPONENT=$
     create_server 
-
+done 
 # 
