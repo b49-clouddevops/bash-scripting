@@ -5,7 +5,7 @@
 # AMI_ID="ami-0aa718de62aea6fbe"
 
 # Throw an error if the input is null 
-XYX=
+XYX="catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis"
 
 if [ "$1" = "" ] ; then 
     echo -e "\e[31m Valid options are component -name or all \e[0m "
