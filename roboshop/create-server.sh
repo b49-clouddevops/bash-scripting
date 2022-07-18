@@ -11,6 +11,6 @@ echo $AMI_ID
 echo "$COMPONENT Server Creation in progress"
 aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_ID --instance-type t2.micro --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"  | jq 
 
-# Cha
+# Changing the IP Address and DNS Name as per the component
 
 aws route53 change-resource-record-sets --hosted-zone-id Z09626353E72G6GNQ0R5A --change-batch file://sample.json
