@@ -11,7 +11,7 @@ echo $AMI_ID
 echo "$COMPONENT Server Creation in progress"
 
 # PRIVATE_IP=${aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_ID --instance-type t2.micro --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"  | jq '.Instances[].PrivateIpAddress' }
-
+aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_ID --instance-type t2.micro --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"
 echo $PRIVATE_IP
 
 # # Changing the IP Address and DNS Name as per the component
