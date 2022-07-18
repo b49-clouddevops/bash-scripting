@@ -20,3 +20,5 @@ create_server() {
     aws route53 change-resource-record-sets --hosted-zone-id Z09626353E72G6GNQ0R5A --change-batch file:///tmp/record.json | jq 
 
 }
+
+create_server 
