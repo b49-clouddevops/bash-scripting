@@ -12,7 +12,7 @@ echo "$COMPONENT Server Creation in progress"
 
 PRIVATE_IP=${aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_ID --instance-type t2.micro --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"  | jq '.Instances[].PrivateIpAddress' }
 
-echo $
+echo $PRIVATE_IP
 
 # Changing the IP Address and DNS Name as per the component
 sed -e 's/IPADDRESS/${PRIVATE_IP}/' -e 's/COMPONENT/${COMPONENT}/' route53.json > /tmp/record.json 
