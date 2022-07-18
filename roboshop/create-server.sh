@@ -30,7 +30,7 @@ create_server() {
 }
 
 if [ "$1" == "all" ]; then 
-    for component in $XYZ ; do 
+    for component in catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis ; do 
         COMPONENT=$component
         create_server 
     done 
