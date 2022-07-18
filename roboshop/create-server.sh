@@ -7,7 +7,7 @@
 # Throw an error if the input is null 
 
 if [ "$1" = "" ] ; then 
-    echo -e "Valid options are "
+    echo -e "Valid options are component -name or all "
 fi 
 
 COMPONENT=$1
