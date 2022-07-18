@@ -6,7 +6,7 @@
 
 # Throw an error if the input is null 
 
-if [ "$1 ] ; then 
+if [ "$1" = "" ] ; then 
 
 fi 
 
