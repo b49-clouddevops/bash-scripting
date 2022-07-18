@@ -6,7 +6,7 @@
 
 # Throw an error if the input is null 
 
-if 
+if [] 
 
 COMPONENT=$1
 SGID="sg-0bf27dd0bb525e6b9"
