@@ -23,4 +23,4 @@ create_server() {
 
 create_server 
 
-catalogue cart user shipping 
+catalogue cart user shipping payment frontend mongodb mysql rabbitmq redis 
