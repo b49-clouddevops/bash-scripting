@@ -20,4 +20,4 @@ PRIVATE_IP=$(aws ec2 run-instances --security-group-ids $SGID --image-id  $AMI_I
 # sed -e 's/IPADDRESS/${PRIVATE_IP}/' -e 's/COMPONENT/${COMPONENT}/' route53.json > /tmp/record.json 
 # aws route53 change-resource-record-sets --hosted-zone-id Z09626353E72G6GNQ0R5A --change-batch file:///tmp/record.json | jq 
 
-# Whenever you use dynamic outputs, prefer to use () : 
+# Whenever you use dynamic outputs, prefer to use () : Paranthesis
