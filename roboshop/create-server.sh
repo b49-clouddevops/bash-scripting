@@ -6,8 +6,8 @@
 
 # Throw an error if the input is null 
 
-if [] ; then 
-    
+if [ "$1 ] ; then 
+
 fi 
 
 COMPONENT=$1
