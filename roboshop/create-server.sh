@@ -27,4 +27,5 @@ if [ "$1 == "all" ]; then
         COMPONENT=$
         create_server 
     done 
+fi 
 # 
