@@ -3,7 +3,7 @@
     "Changes": [{
     "Action": "UPSERT",
                 "ResourceRecordSet": {
-                            "Name": "a.example.com",
+                            "Name": "COMPONENT.example.com",
                             "Type": "A",
                             "TTL": 300,
                          "ResourceRecords": [{ "Value": "4.4.4.4"}]
