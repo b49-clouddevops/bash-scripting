@@ -27,5 +27,7 @@ if [ "$1" == "all" ]; then
         COMPONENT=$component
         create_server 
     done 
+else 
+    create_server 
 fi 
  
