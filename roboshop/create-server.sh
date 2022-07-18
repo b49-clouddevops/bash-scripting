@@ -7,4 +7,3 @@ AMI_ID=$(aws ec2 describe-images  --filters "Name=name,Values=CloudDevOps-LabIma
 echo $AMI_ID 
 
 aws ec2 run-instances --image-id  $AMI_ID --instance-type t2.micro --tags Key=Name,Value=${COMPONENT}
-aws ec2 create-tags --resources i-5203422c 
