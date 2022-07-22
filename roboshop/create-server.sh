@@ -31,5 +31,4 @@ if [ "$1" == "all" ]; then
     done 
 else 
     create_server # Calling a function 
-fi 
- 
+fi
