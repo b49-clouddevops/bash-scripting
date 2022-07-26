@@ -6,7 +6,7 @@
 # Disclaimer: This script works on CENTOS7 Only
 
 if [ "$1" = "" ] | [ "$2" = "" ] ; then 
-    echo -e "\e[31m Valid options are component -name or all \e[0m "
+    echo -e "\e[31m Valid options are component -name or all  \e[0m "
     exit 1
 fi 
 
