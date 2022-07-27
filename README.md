@@ -199,4 +199,5 @@ Always prefer not to delete, instead just update.
 
 ```
 
-In Linux, there is a concept called as `strict host key checking`
+In Linux, there is a concept called as `strict host key checking`.
+This festure will prompt you when you SSH to any of the machine for the very first time
