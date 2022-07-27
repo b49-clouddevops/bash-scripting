@@ -198,3 +198,5 @@ When dealing with internal DNS Records, if you delete XYZ Record and recreate it
 Always prefer not to delete, instead just update.
 
 ```
+
+In Linux, there is a concept called as `strict host key checking`
